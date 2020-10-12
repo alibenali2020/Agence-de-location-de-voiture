@@ -1,10 +1,9 @@
-
 body{
   background-color:   #ae3ff1;
 }
 img {
     vertical-align: middle;
-    width: 250px;
+    width: 310px;
 }
 
 
@@ -19,16 +18,27 @@ img {
   padding: 20px;
   font-size: 20px;
 }
+.zoom {
+  
+  transition: transform .2s;
+  
+}
 
-.card{
-    width: 30%;
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.card {
+    width: 100%;
+    box-shadow: 0 7px 15px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 .card1{
-    width: 100%;
+    width: 70%;
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  margin-left: 200px
 }
 .vertical-line{
         border-left: 2px solid #FFFFFF;
@@ -36,13 +46,14 @@ img {
         height: 130px;
         margin: 0 20px;
       }
-.formulaire-reservation{
-background-image: url(cars7.jpg);
-    width: 140%;
+.formulaire-reservation {
+    background-image: url(cars.jpeg);
+    width: 100%;
     margin-bottom: 50px;
     background-repeat: no-repeat;
-    background-repeat: no-repeat;
-  }
+    background-size: cover;
+    border-radius:30px;
+}
 .col-sm-8{
       position: relative;
     min-height: 1px;
@@ -54,7 +65,7 @@ background-image: url(cars7.jpg);
 .title{
   font-size: 24px;
 width: 606px;
-margin-left: 347px;
+margin-left: 200px;
 }
 .logo{
 		width:120px;
@@ -73,10 +84,11 @@ margin-left: 347px;
 }
 
 .titre{
-  background-color: #45BBCE;
+  
+    width: 250px;
 }
 h3{
- background-color: #45BBCE;
+ 
 background-size: 100%
 width:540px;
 
@@ -94,7 +106,7 @@ nav a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
+    font-size: 20px;
 }
 
 nav a:hover {
@@ -108,7 +120,7 @@ button,  textarea {         /* debut lieux*/
     line-height: inherit;
      width: 450px;
     height: 50px;
-    
+  border-color:  #1d8888;
 }
 .lieux{
   font-family: inherit;
@@ -143,12 +155,12 @@ button,  textarea {         /* debut lieux*/
     display: block;
     padding: 9.5px;
     margin: 0 0 10px;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 0.429;
     color: #333;
     word-break: break-all;
     word-wrap: break-word;
-    background-color: #34c8c8;
+    background-color: #e18928;
     border: 1px solid #ccc;
     border-radius: 100px;
 }
