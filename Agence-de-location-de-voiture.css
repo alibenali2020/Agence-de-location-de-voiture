@@ -40,6 +40,14 @@ img {
   transition: 0.3s;
   margin-left: 200px
 }
+.card2 {
+    width: 39%;
+    box-shadow: 0 4px 8px 0  #e18928;
+    transition: 0.3s;
+    margin-left: 359px;
+    padding: 20px;
+}
+
 .vertical-line{
         border-left: 2px solid #FFFFFF;
         display: inline-block;
@@ -47,12 +55,8 @@ img {
         margin: 0 20px;
       }
 .formulaire-reservation {
-    background-image: url(cars.jpeg);
-    width: 100%;
-    margin-bottom: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius:30px;
+    
+    
 }
 .col-sm-8{
       position: relative;
@@ -68,10 +72,10 @@ width: 606px;
 margin-left: 200px;
 }
 .logo{
-		width:120px;
-	}
-	.tel{
-		width: 30px;
+    width:120px;
+  }
+  .tel{
+    width: 30px;
     color: #dddddd;
 }
 #bg {
@@ -96,10 +100,10 @@ width:540px;
 
 
 nav {
-  float: right;
-  position-top:10px;
+    float: right;
+    position-top: 10px;
+    margin-right: 127px;
 }
-
 nav a {
 
   color: #6f3333;
@@ -154,8 +158,8 @@ button,  textarea {         /* debut lieux*/
 #pre {
     display: block;
     padding: 9.5px;
-    margin: 0 0 10px;
-    font-size: 17px;
+    margin: 5px 5px 18px;
+    font-size: 14px;
     line-height: 0.429;
     color: #333;
     word-break: break-all;
@@ -167,3 +171,13 @@ button,  textarea {         /* debut lieux*/
 h2{
   color :white;
 }
+.row{
+  background-image: url(cars.jpeg);
+    width: 100%;
+    border: 1px solid #ccc;
+margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:30px;
+
+  }
